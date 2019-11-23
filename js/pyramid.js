@@ -33,7 +33,7 @@ let task1 = "The side of a right pyramid is " + pyramid.side + " cm and the slan
     " cm. Calculate the volume and the surface area.";
 let task2 = "The perimeter of the base in a right pyramid is " + pyramid.side * 4 + " cm and the slant height is " + pyramid
     .slant + " cm. Calculate the volume and the surface area.";
-let task3 = "The side of a right pyramid is " + pyramid.radius + " cm and the altitude is " + pyramid.height +
+let task3 = "The side of a right pyramid is " + pyramid.side + " cm and the altitude is " + pyramid.height +
     " cm. Calculate the volume and the surface area.";
 let task4 = "The perimeter of the base in a right pyramid is " + pyramid.side * 4 + " cm and the altitude is " + pyramid
     .height + " cm. Calculate the volume and the surface area.";
