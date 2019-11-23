@@ -1,0 +1,41 @@
+body {
+    background-color: buttonface
+}
+
+h1 {
+    text-align: center;
+}
+
+
+#content {
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+.container {
+    width: 72%;
+    margin: auto;
+}
+
+.tab {
+    width: 20%;
+    background-color: #6b6969;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.active {
+    background-color: #fff;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Right Circular Cylinder</title>
+    <meta charset="windows-1250">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+
+<body>
+    <h1>The Right Circular Cylinder</h1>
+    <div class="container">
+        <a href="cone.html">
+            <div class="tab">Cone</div>
+        </a>
+        <a href="pyramid.html">
+            <div class="tab">Pyramid</div>
+        </a>
+        <a href="cylinder.html">
+            <div class="tab active">Cylinder</div>
+        </a>
+    </div>
+    <div id="content">
+
+        <h2>Task</h2>
+        <img style="float:right" src="style/img/cylinder.png" width="200" alt="cone" />
+
+        <div id="task">
+        </div>
+
+        <div style="font-style: italic"> Your answer should be rounded to two decimal digits.</div>
+
+        </br>
+
+        <div id="answers">
+            The volume is about <input id="vol" type="text" name="vol" value="" size="2" /> cm<sup>3</sup>. <img
+                id="checkVol" src="style/img/empty.jpg" height="20" alt="right" />
+            </br>
+            The surface area is about <input id="surf" type="text" name="surf" value="" size="2" /> cm<sup>2</sup>. <img
+                id="checkSurf" src="style/img/empty.jpg" height="20" alt="right" />
+
+            </br>
+            <input onclick="check()" type="button" value="Check" name="check" />
+        </div>
+        </br>
+        <input onclick="giveUp()" type="button" value="Show the solutions." name="solutions" />
+        <span id="solutions"> </span>
+        </br> </br>
+        <input type="button" value="Generate New Task" name="generate" onclick="generate()" />
+
+
+    </div>
+    <script src="js/cylinder.js"></script>
+</body>
+
+
+
+</html>
