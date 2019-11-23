@@ -63,7 +63,7 @@ function check() {
         document.getElementById("checkSurf").src = "style/img/wrong.jpg";
     }
 }
-// Showing answers
+// Showing the answers
 function giveUp() {
     document.getElementById("solutions").innerHTML = "The volume is about " + pyramid.volume +
         " cm<sup>3</sup> and the surface area is about " + pyramid.surface + " cm<sup>2</sup>.";
